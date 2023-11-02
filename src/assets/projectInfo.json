@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "/images/Bg.jpg",
+    "name": "goodFriends2",
+    "date": "00.00.00 ~ 00.00.00",
+    "team": "팀프로젝트 - 프론트엔드 담당",
+    "url": "https://goodfriends.life/",
+    "gitHub": "https://github.com/woorifisa-projects/GoodFriends",
+    "skill": ["typescript", "vue.js"],
+    "data": [
+      {
+        "title": "담당한 개발 부분",
+        "img": "/images/Bg.jpg",
+        "content": [
+          "사용자 페이지 UI/UX 구현",
+          [
+            "메인 페이지, 프로필 페이지, 상품 페이지, 상품 등록 및 수정 페이지, 주문서 페이지"
+          ],
+          "axios 를 이용한 api 호출 구현",
+          "pinia를 이용한 사용자 정보를 전역에서 관리하도록 구현",
+          "모달창 구현",
+          ["주문서 모달창, 확인하기 위한 모달창"],
+          "입력에 관한 유효성 검사",
+          [
+            "알맞은 날짜인지 검사",
+            "알맞은 핸드폰 번호인지 검사",
+            "글자 제한에 대한 검사"
+          ],
+          "무한 스크롤 구현",
+          "사용자에 따른 페이지 접근 제한",
+          [
+            "글작성자만 수정 페이지 접근 가능",
+            "글작성자가 아닐 경우 해당 상품의 신고 페이지 접근 가능",
+            "로그인 하지 않은 사용자에 경우 메인 페이지를 제외한 나머지 페이지 접근 불가"
+          ]
+        ]
+      },
+      {
+        "title": "무한 스크로로 구현",
+        "content": ["wwwww", "wwwddd"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "/images/Bg.jpg",
+    "name": "goodFriends111",
+    "date": "00.00.00 ~ 00.00.00",
+    "team": "개인 프로젝트",
+    "url": "",
+    "urlInfo": "배포전",
+    "skill": ["typescript", "vue.js"],
+    "gitHub": "https://github.com/woorifisa-projects/GoodFriends",
+    "data": [
+      {
+        "title": "담당한 개발 부분",
+        "content": ["a", "b", "c"]
+      },
+      {
+        "title": "무한 스크로로 구현",
+        "content": ["wwwww", "wwwddd"]
+      }
+    ]
+  }
+]

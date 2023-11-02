@@ -1,0 +1,43 @@
+#root {
+  position: relative;
+  background-color: white;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#App {
+  width: calc(100vw - 70px);
+
+  /* 테블릿 세로 (해상도 768px ~ 1023px)*/
+  @media all and (max-width: 1280px) {
+    width: 100vw;
+  }
+}
+
+section {
+  box-sizing: border-box;
+  padding: 4.5rem 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.up-icon {
+  z-index: 100;
+  cursor: pointer;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}

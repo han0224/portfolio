@@ -1,0 +1,38 @@
+.skills {
+  height: fit-content;
+}
+
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 2rem;
+
+  & > div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  & > p {
+    margin: 0;
+    width: 8rem;
+    text-align: start;
+  }
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  & > span {
+    font-size: 0.8rem;
+    display: block;
+  }
+}

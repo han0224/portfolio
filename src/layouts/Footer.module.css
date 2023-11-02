@@ -1,0 +1,34 @@
+.footer {
+  position: absolute;
+  bottom: -6rem;
+  width: 100%;
+  /* left: 0;
+  right: 0; */
+  /* background-color: lightgray; */
+  height: 5.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  & > p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+
+  & > a {
+    color: black;
+
+    &:hover {
+    }
+  }
+}
+
+svg {
+  pointer-events: none;
+}
