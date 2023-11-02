@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://han0224.github.io/portfolio/",
+  "homepage": "https://han0224.github.io/portfolio",
   "dependencies": {
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
