@@ -20,7 +20,7 @@ export default function Info({ project }) {
         <p>
           기술 스택:
           {project.skill?.map((s) => (
-            <span className={styles.tag} key={s}>
+            <span className="tag" key={s}>
               {s}
             </span>
           ))}

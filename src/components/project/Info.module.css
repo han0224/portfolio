@@ -35,12 +35,6 @@
   }
 }
 
-.tag {
-  background-color: #beadfa;
-  border-radius: 0.2rem;
-  margin: 0 0.2rem;
-}
-
 .urls {
   width: 100%;
   display: flex;

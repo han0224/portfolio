@@ -1,4 +1,5 @@
 // import "./App.css";
+// import styles from "./MainPage.module.css";
 import { About, Main, Project, Skills } from "../components/main";
 import { Header, Footer } from "../layouts";
 import useScrollMove from "../hooks/useScrollMove";

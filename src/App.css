@@ -15,23 +15,6 @@
   }
 }
 
-section {
-  box-sizing: border-box;
-  padding: 4.5rem 0;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-  outline: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: none;
-  color: #000;
-}
-
 .up-icon {
   z-index: 100;
   cursor: pointer;
@@ -40,4 +23,11 @@ a:active {
   display: flex;
   justify-content: end;
   padding: 1rem;
+}
+
+.tag {
+  background-color: #beadfa;
+  border-radius: 0.2rem;
+  margin: 0 0.2rem;
+  padding: 0.2rem 0.4rem;
 }

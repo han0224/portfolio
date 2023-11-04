@@ -61,14 +61,14 @@ export default function Skills() {
       <div className={styles["skills-box"]}>
         {keys.map((v) => (
           <div className={styles.skill} key={v}>
-            {icon(v)}
+            <div className={styles.icon}>{icon(v)}</div>
             <div className={styles.context}>
               <p>{text[v][0]}</p>
-              <div className={styles.detail}>
+              <ul className={styles.detail}>
                 {text[v].slice(1).map((t, index) => (
-                  <span key={`${v}-${text}-${index}`}>{t}</span>
+                  <li key={`${v}-${text}-${index}`}>{t}</li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
         ))}

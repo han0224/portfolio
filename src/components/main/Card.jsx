@@ -1,6 +1,7 @@
 import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
-
+import { BsGithub } from "react-icons/bs";
+import { GoBrowser } from "react-icons/go";
 export default function Card({ props }) {
   return (
     <div className={styles.card}>
@@ -15,7 +16,7 @@ export default function Card({ props }) {
           <p>
             기술 스택:
             {props.skill?.map((s) => (
-              <span className={styles.tag} key={s}>
+              <span className="tag" key={s}>
                 {s}
               </span>
             ))}
@@ -27,13 +28,19 @@ export default function Card({ props }) {
         </div>
       </Link>
       <div className={styles.urls}>
-        <p>
-          <a href={props.gitHub}>github 링크</a>
-        </p>
+        <div className={styles.url}>
+          <a href={props.gitHub}>
+            <BsGithub size={30} />
+            <p>github 링크</p>
+          </a>
+        </div>
         {props.url ? (
-          <p>
-            <a href={props.url}>배포 링크</a>
-          </p>
+          <div className={styles.url}>
+            <a href={props.url}>
+              <GoBrowser size={30} />
+              <p>배포 링크</p>
+            </a>
+          </div>
         ) : (
           <p className={styles["not-working"]}>{props.urlInfo}</p>
         )}

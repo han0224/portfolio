@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Content, Info, Not } from "../components/project";
 import { IoIosArrowBack } from "react-icons/io";
 import { UpIcon } from "../components";
+
 export default function DetailPage() {
   const { id } = useParams();
   const [viewData, setViewData] = useState({ id: null });
