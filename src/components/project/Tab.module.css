@@ -1,0 +1,22 @@
+.tab {
+  /* background-color: lightblue; */
+  padding: 4rem 2rem;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 1rem;
+  & > button {
+    flex: 1;
+    background-color: #e5cff7;
+    border-radius: 0.4rem;
+  }
+
+  & .current {
+    background-color: #713abe;
+    color: white;
+  }
+}

@@ -1,6 +1,11 @@
 .card {
   border: 1px solid black;
   margin: 0 1rem;
+
+  transition: all ease 0.3s;
+  &:hover {
+    transform: scale(1.01);
+  }
 }
 
 .img {
@@ -27,22 +32,6 @@
       font-size: 1rem;
     }
   }
-}
-
-.urls {
-  border-top: 1px solid lightgray;
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem;
-  align-items: center;
-}
-.url p {
-  font-size: 0.8rem;
-  color: gray;
-}
-
-.not-working {
-  cursor: not-allowed;
 }
 
 @media all and (max-width: 1280px) {

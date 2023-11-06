@@ -1,7 +1,7 @@
 import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
-import { BsGithub } from "react-icons/bs";
-import { GoBrowser } from "react-icons/go";
+import Urls from "../Urls";
+
 export default function Card({ props }) {
   return (
     <div className={styles.card}>
@@ -27,24 +27,7 @@ export default function Card({ props }) {
           <span>{props.team}</span>
         </div>
       </Link>
-      <div className={styles.urls}>
-        <div className={styles.url}>
-          <a href={props.gitHub}>
-            <BsGithub size={30} />
-            <p>github 링크</p>
-          </a>
-        </div>
-        {props.url ? (
-          <div className={styles.url}>
-            <a href={props.url}>
-              <GoBrowser size={30} />
-              <p>배포 링크</p>
-            </a>
-          </div>
-        ) : (
-          <p className={styles["not-working"]}>{props.urlInfo}</p>
-        )}
-      </div>
+      <Urls github={props.github} urlInfo={props.urlInfo} url={props.url} />
     </div>
   );
 }

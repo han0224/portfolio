@@ -45,7 +45,7 @@ export default function Skills() {
     ],
     vue: [
       "Vue.js",
-      "Vue.js의 라이프 사이클을 이해하고 있ㅇ며 이를 적절히 사용할 수 있습니다.",
+      "Vue.js의 라이프 사이클을 이해하고 있으며 이를 적절히 사용할 수 있습니다.",
       "Vue3의 Composition API에 익숙하며 Vue.js에서 제공하는 템플릿을 적절히 사용할 수 있습니다.",
     ],
     next: [

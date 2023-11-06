@@ -1,15 +1,76 @@
 [
   {
     "id": 1,
-    "img": "/images/Bg.jpg",
+    "img": "https://github.com/woorifisa-projects/GoodFriends/assets/70616579/c181b237-ac87-419c-9e80-ed1a75225bbc",
     "name": "goodFriends2",
     "date": "00.00.00 ~ 00.00.00",
     "team": "팀프로젝트 - 프론트엔드 담당",
     "url": "https://goodfriends.life/",
-    "gitHub": "https://github.com/woorifisa-projects/GoodFriends",
+    "github": "https://github.com/woorifisa-projects/GoodFriends",
     "skill": ["typescript", "vue.js"],
+    "info": [
+      {
+        "id": "info-1",
+        "title": "프로젝트 소개",
+        "img": "",
+        "content": [
+          "우리FISA 최종 프로젝트",
+          "중고거래시장이 커짐에 따라 중고거래 사기도 증가하고 있습니다.",
+          "이를 인지하여 안심중고거래 서비스를 만들고자 노력하였습니다.",
+          "구매자가 원하는 상품에 주문신청을 한 뒤 판매자가 구매자를 선택하는 방식으로 판매자가 사기를 당하지 않는 측면으로 구성했습니다."
+        ]
+      },
+      {
+        "id": "info-2",
+        "title": "상품 등록",
+        "img": "https://github.com/devFancy/GoodFriends/assets/83820185/15e953e3-5fe5-49a7-86a0-5f38ac938d4e",
+        "content": [
+          "로그인 한 유저만 상품을 등록할 수 있습니다.",
+          "상품을 등록할때는 게시글의 제목, 가격, 상세내용, 상품이미지, 카테고리를 선택할 수 있습니다."
+        ]
+      },
+      {
+        "id": "info-3",
+        "title": "상품 주문",
+        "img": "",
+        "content": [
+          "로그인 한 유저만 상품을 주문할 수 있습니다.",
+          "주문하기를 클릭하면 모달창이 띄워지고 해당 양식을 모두 채워야지만 주문하기가 완료됩니다.",
+          "상품을 주문할때는 자신이 원하는 날짜와 시간을 선택한 후 좀 더 자세한 사항을 판매자에게 전달할 수 있습니다."
+        ]
+      },
+      {
+        "id": "info-4",
+        "title": "신고하기",
+        "img": "https://github.com/devFancy/GoodFriends/assets/83820185/cc6c7e71-1434-4a7f-b889-3b5998d4e6d3",
+        "content": [
+          "로그인 한 유저만 신고할 수 있습니다.",
+          "신고하기를 클릭하면 해당 상품의 신고이유를 선택하고 좀 더 자세한 사항을 적을 수 있습니다."
+        ]
+      },
+      {
+        "id": "info-5",
+        "title": "로그인하기",
+        "img": "",
+        "content": [
+          "구글 계정으로 로그인이 가능합니다.",
+          "자동로그인 기능이 있어 웹 페이지를 나갔다가 다시 들어가도 14일간 로그인이 되어있습니다."
+        ]
+      },
+      {
+        "id": "info-6",
+        "title": "마이페이지",
+        "img": "",
+        "content": [
+          "프로필 정보를 수정할 수 있습니다.",
+          ["이미지, 닉네임, 계좌번호, 핸드폰번호"],
+          "핸드폰은 핸드폰 번호 인증을 해야지만 수정이 가능합니다."
+        ]
+      }
+    ],
     "data": [
       {
+        "id": 1,
         "title": "담당한 개발 부분",
         "img": "/images/Bg.jpg",
         "content": [
@@ -37,27 +98,65 @@
         ]
       },
       {
+        "id": 2,
         "title": "무한 스크로로 구현",
         "content": ["wwwww", "wwwddd"]
       }
     ]
   },
   {
-    "id": 3,
-    "img": "/images/Bg.jpg",
-    "name": "goodFriends111",
+    "id": 2,
+    "img": "https://github.com/woorifisa-projects/GoodFriends/assets/70616579/e2e76d8c-41ab-433b-ae4f-61e8a344d0e2",
+    "name": "타자연습",
     "date": "00.00.00 ~ 00.00.00",
     "team": "개인 프로젝트",
-    "url": "",
-    "urlInfo": "배포전",
-    "skill": ["typescript", "vue.js"],
-    "gitHub": "https://github.com/woorifisa-projects/GoodFriends",
+    "url": "https://rococo-beignet-b72bb2.netlify.app/",
+    "skill": ["Javascript", "React.js"],
+    "github": "https://github.com/han0224/typing",
+    "info": [
+      {
+        "id": "info-1",
+        "title": "프로젝트 소개",
+        "content": [
+          "React.js 와 Javascript를 이용한 타자연습 웹 사이트",
+          "평소 시간이 남을 때 타자연습을 하는 동생을 위해 개발하였습니다.",
+          "최대한 깔끔한 디자인과 오타를 쉽게 확인할 수 있는 것에 초점을 두어 개발하였습니다."
+        ]
+      },
+      {
+        "id": "info-2",
+        "title": "눌린 키보드 확인",
+        "img": "https://user-images.githubusercontent.com/70616579/226365002-a90ccf0f-b54d-4846-a207-a94a35f7b7aa.gif",
+        "content": [
+          "사용자가 누른 키보드를 화면에서 볼 수 있도록 구현하였습니다.",
+          "스페이스바와 일부 특수문자를 제외한 키보드를 구현하여 사용자가 보기 쉽게 개발하였습니다."
+        ]
+      },
+      {
+        "id": "info-3",
+        "title": "오타",
+        "img": "https://user-images.githubusercontent.com/70616579/226365019-af6d7be8-1411-4c5e-a8a0-31bfba52ab82.gif",
+        "content": [
+          "오타는 화면에 붉은 색과 줄이 그어져 확인하기 쉽도록 하였습니다.",
+          "사용자가 더 이상 치지 않고 다음 문장으로 넘어갈 경우 작성하지 않은 문자들은 오타로 간주됩니다.",
+          "오타에 따라 정확도가 다르게 나타납니다."
+        ]
+      },
+      {
+        "id": "info-4",
+        "title": "헤더",
+        "content": ["헤더에는 진행시간, 타수, 최고타수, 정확도가 표시됩니다."]
+      }
+    ],
     "data": [
       {
+        "id": "data-1",
         "title": "담당한 개발 부분",
         "content": ["a", "b", "c"]
       },
       {
+        "id": "data-2",
+
         "title": "무한 스크로로 구현",
         "content": ["wwwww", "wwwddd"]
       }

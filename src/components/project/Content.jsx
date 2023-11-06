@@ -3,11 +3,11 @@ import styles from "./Content.module.css";
 function ListComponent({ children }) {
   return (
     <>
-      {children.map((e) => (
-        <div key={e}>
+      {children.map((e, i) => (
+        <div key={`${e[0]} - ${i}`}>
           {Array.isArray(e) ? (
             e.map((v, i) => (
-              <li key={`second-list-${i}`} className={styles["second-list"]}>
+              <li key={v} className={styles["second-list"]}>
                 {v}
               </li>
             ))
@@ -24,7 +24,7 @@ export default function Content({ project }) {
   return (
     <div className={styles.content}>
       {project.map((v, i) => (
-        <div key={i}>
+        <div key={v.id}>
           <h2>{v.title}</h2>
           <div className={styles["content-detail"]}>
             {v.img ? (

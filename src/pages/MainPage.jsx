@@ -10,11 +10,11 @@ export default function MainPage() {
   const [props, setProps] = useState([]);
 
   const tabs = {
-    0: useScrollMove("main"),
-    1: useScrollMove("about me"),
-    2: useScrollMove("skills"),
-    3: useScrollMove("archiving"),
-    4: useScrollMove("project"),
+    0: useScrollMove(),
+    1: useScrollMove(),
+    2: useScrollMove(),
+    3: useScrollMove(),
+    4: useScrollMove(),
   };
 
   useEffect(() => {

@@ -14,6 +14,7 @@
   font-size: 2rem;
   & > p {
     font-size: 3rem;
+    word-break: keep-all;
   }
 
   & > p:after {
@@ -32,6 +33,9 @@
     & > p {
       margin: 0.3rem;
     }
+  }
+  @media all and (max-width: 768px) {
+    padding: 1rem;
   }
 }
 .icon {

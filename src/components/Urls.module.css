@@ -1,0 +1,22 @@
+.urls {
+  /* width: 100%; */
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+
+  transition: color ease 2s;
+
+  & > a:hover {
+    color: purple;
+  }
+}
+.url p {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.not-working {
+  cursor: not-allowed;
+}
