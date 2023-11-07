@@ -57,7 +57,7 @@ export default function Skills() {
   };
   return (
     <div className={styles.skills}>
-      <h2>기술</h2>
+      <h1>기술</h1>
       <div className={styles["skills-box"]}>
         {keys.map((v) => (
           <div className={styles.skill} key={v}>

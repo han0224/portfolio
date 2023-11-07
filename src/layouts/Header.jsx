@@ -18,27 +18,29 @@ export default function Header(props) {
   ];
   return (
     <div className={styles.header}>
-      <div className={styles.title}>YUNSEO's Portfolio</div>
-      <div className={styles.menu}>
-        <ul>
-          {menuName.map((v) => (
-            <li key={v.name} onClick={() => v.event.onMoveScroll()}>
-              {v.name}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div className={styles["menu_btn"]}>
-        <div onClick={onClick}>
-          <GiHamburgerMenu size={30} />
+      <div>
+        <div className={styles.title}>YUNSEO's Portfolio</div>
+        <div className={styles.menu}>
+          <ul>
+            {menuName.map((v) => (
+              <li key={v.name} onClick={() => v.event.onMoveScroll()}>
+                {v.name}
+              </li>
+            ))}
+          </ul>
         </div>
-        <ul className={isOpen ? styles.open : styles.close}>
-          {menuName.map((v) => (
-            <li key={v.name} onClick={() => v.event.onMoveScroll()}>
-              {v.name}
-            </li>
-          ))}
-        </ul>
+        <div className={styles["menu_btn"]}>
+          <div onClick={onClick}>
+            <GiHamburgerMenu size={30} />
+          </div>
+          <ul className={isOpen ? styles.open : styles.close}>
+            {menuName.map((v) => (
+              <li key={v.name} onClick={() => v.event.onMoveScroll()}>
+                {v.name}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

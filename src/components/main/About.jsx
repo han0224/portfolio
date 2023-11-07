@@ -26,7 +26,10 @@ export default function About() {
           <div className={styles.education}>
             <h2>교육</h2>
             <div className={styles.box}>
-              <span>2023.04 ~ 2023.09</span>
+              <div className={styles.date}>
+                <span>2023.04 ~ </span>
+                <span>2023.09</span>
+              </div>
               <div>
                 <p>우리FIS아카데미</p>
                 <span>클라우드 서비스 개발</span>
@@ -36,21 +39,30 @@ export default function About() {
           <div className={styles.school}>
             <h2>학력</h2>
             <div className={styles.box}>
-              <span>2021.03 ~ 2024.02</span>
+              <div className={styles.date}>
+                <span>2021.03 ~ </span>
+                <span>2024.02</span>
+              </div>
               <div>
                 <p>한국공학대학교 졸업예정</p>
                 <span>컴퓨터공학과</span>
               </div>
             </div>
             <div className={styles.box}>
-              <span>2019.03 ~ 2021.02</span>
+              <div className={styles.date}>
+                <span>2019.03 ~ </span>
+                <span>2021.02</span>
+              </div>
               <div>
                 <p>호서대학교 중퇴</p>
                 <span>게임애니메이션융합학부</span>
               </div>
             </div>
             <div className={styles.box}>
-              <span>2016.03 ~ 2019.02</span>
+              <div className={styles.date}>
+                <span>2016.03 ~ </span>
+                <span>2019.02</span>
+              </div>
               <div>
                 <p>천안여자고등학교 졸업</p>
               </div>
@@ -59,7 +71,9 @@ export default function About() {
           <div className={styles.awards}>
             <h2>수상</h2>
             <div className={styles.box}>
-              <span>2022.12</span>
+              <div className={styles.date}>
+                <span>2022.12</span>
+              </div>
               <div>
                 <p>한이음 ICT 멘토링 - 장려상</p>
                 <span>

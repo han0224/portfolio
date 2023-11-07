@@ -26,7 +26,7 @@ export default function UpIcon({ size = 40, dom = null }) {
       const options = {
         root: null, // 뷰포트를 기준으로 타켓의 가시성 검사
         rootMargin: "0px 0px 0px 0px", // 확장 또는 축소 X
-        threshold: 0.3, // 타켓의 가시성 0%일 때 옵저버 실행
+        threshold: 0, // 타켓의 가시성 0%일 때 옵저버 실행
       };
 
       const intersectionObserver = new IntersectionObserver(

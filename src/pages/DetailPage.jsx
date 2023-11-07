@@ -27,19 +27,21 @@ export default function DetailPage() {
   if (!viewData.id) return <Not />;
   else {
     return (
-      <div className={styles.detailPage}>
-        <button className={styles["home-btn"]} onClick={() => navigate("/")}>
-          <IoIosArrowBack size={20} />
-        </button>
-        <h1>{viewData.name}</h1>
-        <Info project={viewData} />
-        <div ref={tabs}>
-          <Tab components={tabComponents} />
+      <main>
+        <div className={styles.detailPage}>
+          <button className={styles["home-btn"]} onClick={() => navigate("/")}>
+            <IoIosArrowBack size={20} />
+          </button>
+          <h1>{viewData.name}</h1>
+          <Info project={viewData} />
+          <div ref={tabs}>
+            <Tab components={tabComponents} />
+          </div>
+          <div className="up-icon">
+            <UpIcon size={40} dom={tabs} />
+          </div>
         </div>
-        <div className="up-icon">
-          <UpIcon size={40} dom={tabs} />
-        </div>
-      </div>
+      </main>
     );
   }
 }

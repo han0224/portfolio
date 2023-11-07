@@ -77,6 +77,8 @@ ul {
 }
 
 main {
+  max-width: 1024px;
+  margin: 0 auto;
   & > section:first-child {
     height: 100vh;
   }
@@ -102,7 +104,9 @@ a:active {
   text-decoration: none;
   color: #000;
 }
-
+h1 {
+  font-size: 2rem;
+}
 @media all and (max-width: 1023px) {
   html {
     font-size: 90%;

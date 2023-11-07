@@ -6,7 +6,7 @@ export default function Project() {
 
   return (
     <div className={styles.project}>
-      <h2>프로젝트</h2>
+      <h1>프로젝트</h1>
       <div className={styles.cards}>
         {projects.map((project) => (
           <Card props={project} key={project.id} />
