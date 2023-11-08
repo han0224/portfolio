@@ -104,6 +104,10 @@ a:active {
   text-decoration: none;
   color: #000;
 }
+
+img {
+  object-fit: cover;
+}
 h1 {
   font-size: 2rem;
 }

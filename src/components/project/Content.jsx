@@ -29,7 +29,7 @@ export default function Content({ project }) {
           <div className={styles["content-detail"]}>
             {v.img ? (
               <div className={styles.img}>
-                <img src={v.img} alt="" />
+                <img src={v.img} alt="추가적인 이미지" />
               </div>
             ) : (
               <></>
@@ -38,6 +38,13 @@ export default function Content({ project }) {
               <ListComponent>{v.content}</ListComponent>
             </ul>
           </div>
+          {v.tag ? (
+            <div className={styles["tag-url"]}>
+              <a href={v.tag.url}>{v.tag.name}</a>
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
       ))}
     </div>

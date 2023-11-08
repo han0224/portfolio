@@ -4,7 +4,10 @@ export default function About() {
     <div className={styles.about}>
       <div className={styles.info}>
         <div className={styles.img}>
-          <img src="src/assets/imgs/Bg.jpg" alt="" />
+          <img
+            src="https://github.com/han0224/portfolio/assets/70616579/0bce6111-c2ac-4d53-90c9-fd9a9d3ef27e"
+            alt="증명사진"
+          />
         </div>
         <div className={styles["default-info"]}>
           <div>
@@ -17,7 +20,9 @@ export default function About() {
           </div>
           <div>
             <span>email</span>
-            <p>dbn0224@gmail.com</p>
+            <p>
+              <a href="mailto:dbn0224@gmail.com">dbn0224@gmail.com</a>
+            </p>
           </div>
         </div>
       </div>

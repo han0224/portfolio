@@ -86,7 +86,7 @@
 .img {
   width: 8rem;
   height: 8rem;
-  background-color: lightgray;
+  /* background-color: lightgray; */
 
   border-radius: 50%;
   display: flex;
@@ -95,10 +95,10 @@
   margin: 0 auto;
 
   overflow: hidden;
+
   & > img {
-    object-fit: over;
-    width: 96%;
-    height: 96%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
   }
 }
