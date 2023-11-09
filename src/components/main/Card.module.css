@@ -1,6 +1,6 @@
 .card {
   border: 1px solid black;
-  margin: 0 1rem;
+  margin: 0.7rem;
 
   transition: all ease 0.3s;
   &:hover {

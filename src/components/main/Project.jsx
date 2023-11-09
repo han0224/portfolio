@@ -2,7 +2,7 @@ import styles from "./Project.module.css";
 import Card from "./Card";
 import project from "../../assets/projectInfo.json";
 export default function Project() {
-  const projects = project.sort((a, b) => a.id - b.id);
+  const projects = project.sort((a, b) => b.id - a.id);
 
   return (
     <div className={styles.project}>
