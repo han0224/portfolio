@@ -11,6 +11,7 @@
 }
 .content-detail {
   display: flex;
+  flex-direction: column;
   gap: 3rem;
   & > div {
     flex: 2;
@@ -39,7 +40,8 @@
   }
 }
 .img {
-  max-width: 400px;
+  /* max-width: 400px; */
+  max-height: 500px;
   overflow: hidden;
   border: 1px solid black;
   display: flex;

@@ -27,6 +27,7 @@
   & > p {
     font-size: 0.8rem;
     margin: 0.4rem 0;
+    word-break: keep-all;
 
     & > span {
       padding-left: 0.3rem;
