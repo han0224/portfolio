@@ -1,8 +1,16 @@
-# React + Vite
+## 포트폴리오 웹 사이트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 링크
 
-Currently, two official plugins are available:
+<a href="https://han0224.github.io/portfolio/#/">
+<img src="https://img.shields.io/badge/GitHub Pages-222222.svg?style=for-the-badge&logo=GitHub Pages&logoColor=white"/>
+</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 기술스택
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black"/>
+
+### 기간
+
+**2023.11.02 ~** (추후 계속 추가 예정)
